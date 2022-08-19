@@ -1,0 +1,22 @@
+[keys.insert]
+'j' = {k = "normal_mode"}
+
+[editor]
+mouse = false
+
+[editor.lsp]
+display-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.whitespace]
+render = "all"
+
+[keys.normal]
+'^' = "goto_line_start"
+'$' = "goto_line_end"
+
+[keys.select]
+'^' = "goto_line_start"
+'$' = "goto_line_end"
